@@ -13,7 +13,6 @@ full_shift:
 id: oobb_part_plate_8_width_5_height_3_mm_depth
 id_oobb: oobb_part_oomlout_oobb_part_plate_plate_8_width_5_height_3_mm_depth
 kwargs:
-  extra: ''
   filter: ''
   height: 5
   modes:

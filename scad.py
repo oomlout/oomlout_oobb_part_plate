@@ -334,6 +334,10 @@ def make_scad(**kwargs):
             extras = []
             extras.append("only_oobb_hole")
             extras.append("only_oobe_hole")            
+            extras.append("perimeter_hole") 
+            extras.append("corner_hole")
+            extras.append("one_side_hole")
+            extras.append("two_side_hole")
             extras.append("")
             
             
@@ -416,14 +420,30 @@ def get_plate(thing, **kwargs):
     p3["shape"] = f"oobb_holes"
     if extra == "":
         p3["both_holes"] = True  
+        p3["holes"] = "all"
     elif extra == "only_oobb_hole":
         p3["both_holes"] = False  
+        p3["holes"] = "all"
     elif extra == "only_oobe_hole":
         p3["radius_name"] = "m3"
         p3["both_holes"] = True  
+        p3["holes"] = "all"
+    elif extra == "perimeter_hole":
+        p3["both_holes"] = True  
+        p3["holes"] = "perimeter"
+    elif extra == "corner_hole":
+        p3["both_holes"] = True  
+        p3["holes"] = "corner"
+    elif extra == "one_side_hole":
+        p3["both_holes"] = True  
+        p3["holes"] = "top"
+    elif extra == "two_side_hole":
+        p3["both_holes"] = True  
+        p3["holes"] = ["top", "bottom"]
+
     
     p3["depth"] = depth
-    p3["holes"] = "perimeter"
+    
     #p3["m"] = "#"
     pos1 = copy.deepcopy(pos)         
     p3["pos"] = pos1

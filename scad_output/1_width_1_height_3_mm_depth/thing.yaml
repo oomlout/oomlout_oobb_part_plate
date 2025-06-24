@@ -52,111 +52,54 @@ thing:
       shape: cylinder
       type: positive
       width: 1
-  - - - h: 200
-        inclusion: laser
-        m: ''
-        pos: &id001
-        - 0.0
-        - 0.0
-        - -100.0
-        r: 3.0
-        shape: cylinder
-        type: negative
-      - h: 200
-        inclusion: 3dpr
-        m: ''
-        pos: *id001
-        r: 3.25
-        shape: cylinder
-        type: negative
-      - h: 200
-        inclusion: 'true'
-        m: ''
-        pos: *id001
-        r: 3.0
-        shape: cylinder
-        type: negative
-    - - depth: 3
-        h: 3
-        inclusion: laser
-        m: ''
-        pos: &id002
-        - 0.0
-        - 0.0
-        - 0
-        r: 1.5
-        shape: cylinder
-        type: negative
-      - depth: 3
-        h: 3
-        inclusion: 3dpr
-        m: ''
-        pos: *id002
-        r: 1.8
-        shape: cylinder
-        type: negative
-      - depth: 3
-        h: 3
-        inclusion: 'true'
-        m: ''
-        pos: *id002
-        r: 1.5
-        shape: cylinder
-        type: negative
-    - - depth: 3
-        h: 3
-        inclusion: laser
-        m: ''
-        pos: &id003
-        - 0.0
-        - 0.0
-        - 0
-        r: 1.5
-        shape: cylinder
-        type: negative
-      - depth: 3
-        h: 3
-        inclusion: 3dpr
-        m: ''
-        pos: *id003
-        r: 1.8
-        shape: cylinder
-        type: negative
-      - depth: 3
-        h: 3
-        inclusion: 'true'
-        m: ''
-        pos: *id003
-        r: 1.5
-        shape: cylinder
-        type: negative
-    - - depth: 3
-        h: 3
-        inclusion: laser
-        m: ''
-        pos: &id004
-        - 0.0
-        - 0.0
-        - 0
-        r: 1.5
-        shape: cylinder
-        type: negative
-      - depth: 3
-        h: 3
-        inclusion: 3dpr
-        m: ''
-        pos: *id004
-        r: 1.8
-        shape: cylinder
-        type: negative
-      - depth: 3
-        h: 3
-        inclusion: 'true'
-        m: ''
-        pos: *id004
-        r: 1.5
-        shape: cylinder
-        type: negative
+  - - - - inclusion: laser
+          pos:
+          - 0.0
+          - 0.0
+          - 0
+          r: 3.0
+          shape: hole
+          type: negative
+    - - - inclusion: 3dpr
+          pos:
+          - 0.0
+          - 0.0
+          - 0
+          r: 3.25
+          shape: hole
+          type: negative
+    - - - inclusion: 'true'
+          pos:
+          - 0.0
+          - 0.0
+          - 0
+          r: 3.0
+          shape: hole
+          type: negative
+    - - - inclusion: laser
+          pos:
+          - 0.0
+          - 0.0
+          - 0
+          r: 1.5
+          shape: hole
+          type: negative
+    - - - inclusion: 3dpr
+          pos:
+          - 0.0
+          - 0.0
+          - 0
+          r: 1.8
+          shape: hole
+          type: negative
+    - - - inclusion: 'true'
+          pos:
+          - 0.0
+          - 0.0
+          - 0
+          r: 1.5
+          shape: hole
+          type: negative
   components_objects:
   - depth: 3
     filter: ''
@@ -188,7 +131,7 @@ thing:
     depth: 3
     filter: ''
     height: 1
-    holes: perimeter
+    holes: all
     modes:
     - 3dpr
     navigation: true
@@ -214,7 +157,7 @@ thing:
     width: 1
   components_string:
   - oobb_plate_shape_positive_type_3_depth_none_save_type_true_navigation_true_overwrite_'3dpr'_modes_oobb_oomp_mode_false_oomp_run_1_width_1_height_3_thickness_oobb_oomp_classification_part_oomp_type_plate_oomp_size
-  - oobb_holes_shape_p_type_3_depth_none_save_type_true_navigation_true_overwrite_'3dpr'_modes_oobb_oomp_mode_false_oomp_run_1_width_1_height_3_thickness_oobb_oomp_classification_part_oomp_type_plate_oomp_size_true_both_holes_perimeter_holes
+  - oobb_holes_shape_p_type_3_depth_none_save_type_true_navigation_true_overwrite_'3dpr'_modes_oobb_oomp_mode_false_oomp_run_1_width_1_height_3_thickness_oobb_oomp_classification_part_oomp_type_plate_oomp_size_true_both_holes_all_holes
   description: oomlout oobb part plate plate 1x1x3
   description_extra: ''
   description_main: 1_width_1_height_3_mm_depth
