@@ -18,6 +18,7 @@ kwargs:
   height: 14
   modes:
   - 3dpr
+  - laser
   navigation: true
   oomp_classification: oobb
   oomp_color: ''
