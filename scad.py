@@ -158,6 +158,7 @@ def make_scad(**kwargs):
                 premo_plates.append([17,1])
                 premo_plates.append([19,1])
                 premo_plates.append([20,1])
+                premo_plates.append([18,7])
                 premo_plates.append([2,1])
                 premo_plates.append([3,3])
                 premo_plates.append([5,5])
