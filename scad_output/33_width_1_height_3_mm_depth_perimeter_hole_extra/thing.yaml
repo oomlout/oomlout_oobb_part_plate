@@ -18,6 +18,7 @@ kwargs:
   height: 1
   modes:
   - 3dpr
+  - laser
   navigation: true
   oomp_classification: oobb
   oomp_color: ''
@@ -6121,6 +6122,7 @@ thing:
     height: 1
     modes:
     - 3dpr
+    - laser
     navigation: true
     oomp_classification: oobb
     oomp_color: ''
@@ -6151,6 +6153,7 @@ thing:
     holes: perimeter
     modes:
     - 3dpr
+    - laser
     navigation: true
     oomp_classification: oobb
     oomp_color: ''
@@ -6174,8 +6177,8 @@ thing:
     type: p
     width: 33
   components_string:
-  - oobb_plate_shape_positive_type_3_depth_all_typ_all_save_type_true_navigation_false_overwrite_'3dpr'_modes_oobb_oomp_mode_true_oomp_run_33_width_1_height_3_thickness_oobb_oomp_classification_part_oomp_type_plate_oomp_size_perimeter_hole_extra
-  - oobb_holes_shape_p_type_3_depth_all_typ_all_save_type_true_navigation_false_overwrite_'3dpr'_modes_oobb_oomp_mode_true_oomp_run_33_width_1_height_3_thickness_oobb_oomp_classification_part_oomp_type_plate_oomp_size_perimeter_hole_extra_true_both_holes_perimeter_holes
+  - oobb_plate_shape_positive_type_3_depth_all_typ_all_save_type_true_navigation_false_overwrite_'3dpr'_'laser'_modes_oobb_oomp_mode_true_oomp_run_33_width_1_height_3_thickness_oobb_oomp_classification_part_oomp_type_plate_oomp_size_perimeter_hole_extra
+  - oobb_holes_shape_p_type_3_depth_all_typ_all_save_type_true_navigation_false_overwrite_'3dpr'_'laser'_modes_oobb_oomp_mode_true_oomp_run_33_width_1_height_3_thickness_oobb_oomp_classification_part_oomp_type_plate_oomp_size_perimeter_hole_extra_true_both_holes_perimeter_holes
   description: oomlout oobb part plate plate 33x1x3
   description_extra: perimeter_hole_extra
   description_main: 33_width_1_height_3_mm_depth

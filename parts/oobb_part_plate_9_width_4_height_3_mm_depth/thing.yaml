@@ -17,6 +17,7 @@ kwargs:
   height: 4
   modes:
   - 3dpr
+  - laser
   navigation: true
   oomp_classification: oobb
   oomp_color: ''
@@ -3781,6 +3782,7 @@ thing:
     height: 4
     modes:
     - 3dpr
+    - laser
     navigation: true
     oomp_classification: oobb
     oomp_color: ''
@@ -3810,6 +3812,7 @@ thing:
     holes: all
     modes:
     - 3dpr
+    - laser
     navigation: true
     oomp_classification: oobb
     oomp_color: ''
@@ -3833,8 +3836,8 @@ thing:
     type: p
     width: 9
   components_string:
-  - oobb_plate_shape_positive_type_3_depth_all_typ_all_save_type_true_navigation_false_overwrite_'3dpr'_modes_oobb_oomp_mode_true_oomp_run_9_width_4_height_3_thickness_oobb_oomp_classification_part_oomp_type_plate_oomp_size
-  - oobb_holes_shape_p_type_3_depth_all_typ_all_save_type_true_navigation_false_overwrite_'3dpr'_modes_oobb_oomp_mode_true_oomp_run_9_width_4_height_3_thickness_oobb_oomp_classification_part_oomp_type_plate_oomp_size_true_both_holes_all_holes
+  - oobb_plate_shape_positive_type_3_depth_all_typ_all_save_type_true_navigation_false_overwrite_'3dpr'_'laser'_modes_oobb_oomp_mode_true_oomp_run_9_width_4_height_3_thickness_oobb_oomp_classification_part_oomp_type_plate_oomp_size
+  - oobb_holes_shape_p_type_3_depth_all_typ_all_save_type_true_navigation_false_overwrite_'3dpr'_'laser'_modes_oobb_oomp_mode_true_oomp_run_9_width_4_height_3_thickness_oobb_oomp_classification_part_oomp_type_plate_oomp_size_true_both_holes_all_holes
   description: oomlout oobb part plate plate 9x4x3
   description_extra: ''
   description_main: 9_width_4_height_3_mm_depth
