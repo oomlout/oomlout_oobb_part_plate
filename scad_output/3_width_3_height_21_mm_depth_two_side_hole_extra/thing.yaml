@@ -18,6 +18,7 @@ kwargs:
   height: 3
   modes:
   - 3dpr
+  - laser
   navigation: true
   oomp_classification: oobb
   oomp_color: ''
@@ -1036,6 +1037,7 @@ thing:
     height: 3
     modes:
     - 3dpr
+    - laser
     navigation: true
     oomp_classification: oobb
     oomp_color: ''
@@ -1068,6 +1070,7 @@ thing:
     - bottom
     modes:
     - 3dpr
+    - laser
     navigation: true
     oomp_classification: oobb
     oomp_color: ''
@@ -1091,8 +1094,8 @@ thing:
     type: p
     width: 3
   components_string:
-  - oobb_plate_shape_positive_type_21_depth_all_typ_all_save_type_true_navigation_false_overwrite_'3dpr'_modes_oobb_oomp_mode_true_oomp_run_3_width_3_height_21_thickness_oobb_oomp_classification_part_oomp_type_plate_oomp_size_two_side_hole_extra
-  - oobb_holes_shape_p_type_21_depth_all_typ_all_save_type_true_navigation_false_overwrite_'3dpr'_modes_oobb_oomp_mode_true_oomp_run_3_width_3_height_21_thickness_oobb_oomp_classification_part_oomp_type_plate_oomp_size_two_side_hole_extra_true_both_holes_'top'_'bottom'_holes
+  - oobb_plate_shape_positive_type_21_depth_all_typ_all_save_type_true_navigation_false_overwrite_'3dpr'_'laser'_modes_oobb_oomp_mode_true_oomp_run_3_width_3_height_21_thickness_oobb_oomp_classification_part_oomp_type_plate_oomp_size_two_side_hole_extra
+  - oobb_holes_shape_p_type_21_depth_all_typ_all_save_type_true_navigation_false_overwrite_'3dpr'_'laser'_modes_oobb_oomp_mode_true_oomp_run_3_width_3_height_21_thickness_oobb_oomp_classification_part_oomp_type_plate_oomp_size_two_side_hole_extra_true_both_holes_'top'_'bottom'_holes
   description: oomlout oobb part plate plate 3x3x21
   description_extra: two_side_hole_extra
   description_main: 3_width_3_height_21_mm_depth
