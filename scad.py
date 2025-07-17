@@ -222,6 +222,10 @@ def make_scad(**kwargs):
             #special to sort
             if False:    
                 size = "oobb"
+                plates.append({"type": "plate", "width": 56, "height": 40,
+                            "thickness": 3, "size": size, "extra": "paper_sheet_a1"})
+                plates.append({"type": "plate", "width": 40, "height": 28,
+                            "thickness": 3, "size": size, "extra": "paper_sheet_a2"})
                 plates.append({"type": "plate", "width": 28, "height": 20,
                             "thickness": 3, "size": size, "extra": "paper_sheet_a3"})
                 plates.append({"type": "plate", "width": 20, "height": 14,
